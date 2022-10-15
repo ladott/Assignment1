@@ -1,5 +1,6 @@
 public class Main {
 
+//    დისკრიმინანტი და იგი
     static double discriminant(double a, double b, double c) {
         double d;
         d = Math.pow(b, 2) - 4 * (a * c);
@@ -7,6 +8,7 @@ public class Main {
     }
 
 
+    // პაწუა ზორო (სტრინგი)
     static String smallString(String[] stringArray){
         String arg = stringArray[0];
         for (int i = 0; i < stringArray.length; i++) {

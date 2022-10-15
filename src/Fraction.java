@@ -35,6 +35,7 @@ public class Fraction {
         return numerator + "/" + denominator;
     }
 
+   //შეკვეცა
     static String truncated(Fraction a) {
         if (gcd(a.numerator, a.denominator) > 1) {
             return (a.numerator / gcd(a.numerator,a.denominator)) + "/" + (a.denominator / gcd(a.numerator,a.denominator));
@@ -46,6 +47,7 @@ public class Fraction {
         return (a / gcd(a, b)) * b;
     }
 
+//  ჯამი და იგი
     static String sum(Fraction a, Fraction b) {
         int num;
         int den;
@@ -59,6 +61,7 @@ public class Fraction {
         return num + "/" + den;
     }
 
+// აგი ნამრავლი
     static String prod(Fraction a, Fraction b) {
         int num;
         int den;
